@@ -7,7 +7,7 @@
 body{
 	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
 	color:#666;
-	background: #FA9917; 
+	 
 }
 a{
 	text-decoration: none;
@@ -43,7 +43,10 @@ img{
 }
 
 /*头部*/
-header{
+.body{
+	background: #FA9917;
+}
+.header{
 	padding:0.2rem;
 	background: #ffa217; 
 }
@@ -115,3 +118,158 @@ header{
 	font-weight: bold;
 }
 /*实体店盈利能力自测表样式*/
+.selfTestSheet{
+	background-image: url(images/)
+}
+
+/*实体店经营调查表样式*/
+.productBody{
+	background-image: url(../images/backgroundImg.png);
+}
+.productHeader{
+	background:#E97716;
+	text-align: center;
+	color:#fff;
+	font-size: 0.2rem;
+	font-weight: bold; 
+	margin:0.6rem 0 0 0.1rem;
+	padding:0.3rem 0 0.3rem 0;
+}
+/*产品体系*/
+.productMain{
+	margin:2rem 0.4rem 0 0.4rem;
+	/*border:1px solid #000;*/
+}
+.productTitle{
+	color：#333;
+	font-weight: bold;
+	font-size:0.14rem;
+}
+.line{
+	width:2rem;
+	height:2px;
+	background:#4D8CF6;
+	border-radius:1px;
+	margin:0.5rem 0;
+}
+/*产品列表*/
+.questionList{
+	width:100%;
+	margin-bottom: 0.2rem;
+}
+.questionList>dt{
+	background:#FEA620; 
+	color:#fff;
+	font-weight: bold;
+	font-size: 0.2rem;
+	padding:0 0.4rem 0  0.4rem;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding:0.3rem 0 0.3rem 1rem;
+	/*margin-left:0.5rem;*/
+}
+.questionList>dd{
+	/*color:#fff;*/
+	font-size: 0.1rem;
+	background: #FEB546;
+	color:#fff;
+	padding:0 0 0 1rem;
+
+}
+.questionList>dd:last-child{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-bottom: 0.5rem;
+}
+.questionList>dd:first-child{
+	padding-top: 0.5rem;
+}
+/*页脚*/
+.productFooter>a{
+	display: inline-block;
+	width:100%;
+	background:#E97716;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color:#fff;
+	padding:0.3rem 0;
+}
+
+/*实体店经营调查表样式*/
+.user{
+	height:100vh;
+	background:#FBB442;
+}
+.userTitle{
+	background:#E73914;
+	padding:0.3rem 0;
+	color:#fff;
+	text-align: center;
+	font-size: 0.12rem;
+}
+.userTip{
+	text-align: right;
+}
+.userTip>img{
+	width:2rem;
+	float:right;
+}
+.userPic{
+	background:#fff;
+	border-radius: 5px;
+	padding:1rem 0.5rem;
+
+}
+.userMain{
+	/*padding:0 0.5rem 0 0.5rem;*/
+	margin:2rem 0.5rem 0;
+	background:#fff; 
+	height:85%;
+	border-radius: 5px;
+}
+.picTit{
+	font-weight: bold;
+	color:#000;
+}
+.userPic>div{
+	margin-top:3rem;
+	text-align: center;
+}
+.userPic>div>img{
+	width:6.75rem;
+	height:5rem;
+	float:left;
+	/*vertical-align: bottom;*/
+}
+.userPic>div>span{
+	display: inline-block;
+	width:6rem;
+	height:6rem;
+	border:1px solid #000;
+	float:left;
+}
+.table{
+	/*border:1px solid #4F4E49;*/
+	border: solid thin #4F4E49;
+	border-bottom: 0;
+}
+.first{
+	width:40%;
+	text-align: center;
+	background: #00B39E;
+	color:#fff;
+	font-size:0.14rem;
+	padding:0.6rem 0;
+	border-bottom:solid thin #4F4E49;
+}
+.last{
+	width:60%;
+	text-align: center;
+	background: #FEA316;
+	color:#fff;
+	font-size:0.14rem;
+	padding:0.6rem 0;
+	border-bottom:solid thin #4F4E49;
+
+}

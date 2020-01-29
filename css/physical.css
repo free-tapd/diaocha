@@ -1,0 +1,9 @@
+.container{
+    background: url(../images/bg.png) repeat center;
+}
+header{
+    height: 160px;
+    width: 100%;
+    background: url(../images/physical.png) no-repeat center;
+    background-size: contain;
+}
